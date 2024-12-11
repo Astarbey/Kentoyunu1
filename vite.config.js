@@ -29,4 +29,7 @@ export default defineConfig({
     }),
   ],
   base: '/Kentoyunu1/', // Burayı GitHub depo adınızla değiştirin
+  build: {
+    outDir: 'dist', // Çıktı dizinini belirtin
+  },
 });
