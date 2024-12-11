@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Kentoyunu1/sw.js', { scope: '/Kentoyunu1/' })})}
